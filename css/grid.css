@@ -1,0 +1,46 @@
+.center-box {
+    width: 1140px;
+    margin: 0 auto
+}
+
+.row {
+	margin-left: -20px;
+    margin-right: -20px;
+}
+
+.one-third {
+	width: 33%;
+	float: left;
+	position: relative;
+	padding-left: 20px;
+    padding-right: 20px;
+	min-height: 1px;
+}
+
+.one-fourth {
+	width: 25%;
+	float: left;
+	position: relative;
+	padding-left: 20px;
+    padding-right: 20px;
+	min-height: 1px;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1200px) {
+	.center-box {
+		width: 100%!important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.center-box {
+		width: 100%!important;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.one-third, .one-fourth {
+		width: 100%;
+	}
+}
